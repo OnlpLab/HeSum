@@ -6,7 +6,8 @@ The paper can be found [here]().
 
 ## Data
 
-The data is composed of pairs of sub-heading + article scrapped from  [Shkuf](https://shakuf.co.il/), [ha-makom](https://www.ha-makom.co.il/), [the7eye](https://www.the7eye.org.il/)
+The data is composed of pairs of sub-heading + article scrapped from  [Shkuf](https://shakuf.co.il/), [ha-makom](https://www.ha-makom.co.il/), [the7eye](https://www.the7eye.org.il/).
+
 
 
 The data can be found [here](https://huggingface.co/datasets/biunlp/HeSum).
@@ -36,10 +37,8 @@ There are two models fine-tuned on the HeSum dataset.
 For running the model
 
 ```python
-
 from datasets import load_dataset
 from transformers import pipeline
-
 
 dataset = load_dataset("biunlp/HeSum")['test']
 hub_model_id = "biunlp/mT5LongHeSum-large"
