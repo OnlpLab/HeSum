@@ -2,7 +2,7 @@
 
 ## Paper
 
-The paper can be found [here]().
+The paper can be found [here](https://arxiv.org/pdf/2406.03897).
 
 ## Data
 
